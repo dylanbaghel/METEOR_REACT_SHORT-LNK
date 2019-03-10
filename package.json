@@ -1,6 +1,9 @@
 {
   "name": "short-link",
   "private": true,
+  "engines": {
+    "node": "8.11.4"
+  },
   "scripts": {
     "start": "meteor run",
     "test": "meteor test --once --driver-package meteortesting:mocha",

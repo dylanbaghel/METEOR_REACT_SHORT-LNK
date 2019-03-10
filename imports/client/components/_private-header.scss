@@ -1,0 +1,17 @@
+.private-header {
+    background: $header-bg;
+    margin-bottom: $space;
+    color: $header-color;
+}
+
+.private-header__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: $space;
+    max-width: $site-max-width;
+}
+
+.private-header__title {
+    margin: 0;
+}

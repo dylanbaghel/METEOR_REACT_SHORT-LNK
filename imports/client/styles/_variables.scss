@@ -1,0 +1,34 @@
+//COLORS
+$brand-primary: #16a085;
+$grey: #ddd;
+
+// Spaces
+$space: 1.4rem;
+$site-max-width: 90rem;
+// FONT SIZES
+$base-font-size: 1.6rem;
+$large-font-size: 1.8rem;
+// FORM INPUTS
+$input-border: $grey;
+$input-padding: 1rem;
+// BOXED VIEW
+$box-view-overlay-bg: $grey;
+$box-view-bg: #fff;
+
+//BUTTON
+$btn-bg: $brand-primary;
+$btn-padding: 1rem;
+$button-outline-color: $brand-primary;
+$button-secondary-bg: #f9f9f9;
+$button-secondary-color: #777;
+$button-secondary-border-color: $grey;
+
+// HEADER
+$header-bg: $brand-primary;
+$header-color: #fff;
+
+// ITEM
+$item-bg: #f9f9f9;
+$item-border-color: darken($item-bg, 8%);
+$item-text-color: #777;
+

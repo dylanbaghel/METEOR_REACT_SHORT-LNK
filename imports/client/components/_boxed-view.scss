@@ -1,0 +1,37 @@
+.boxed-view {
+    background: $box-view-overlay-bg;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxed-view--modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: fade-out($color: $box-view-overlay-bg, $amount: .3);
+}
+
+
+.boxed-view__box {
+    background-color: $box-view-bg;
+    padding: 2.4rem;
+    text-align: center;
+    width: 24rem;
+}
+
+.boxed-view__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxed-view__input-error {
+    font-size: 1.4rem;
+    color: #777;
+    margin-top: -10px;
+    font-style: italic;
+}
